@@ -8,6 +8,14 @@ header {
     background-color: #eff1f7;
 }
 
+.my-skyblue {
+  color: skyblue;
+}
+
+.space{
+  height: 83px;
+}
+
 .logo {
     font-family: 'Switzer', sans-serif;
     font-size: 72px;
@@ -55,11 +63,10 @@ header {
 .dan {
     padding: 7px;
     border-bottom: 3px solid #fafafa;
-    border-radius: 13px;
     margin-top: 90px;
     font-family: "ヒラギノ角ゴシック W6";
     font-size: 60px;
-    border-bottom: 7px solid #F68887;
+    background: linear-gradient(transparent 68%, #a7d6ff 68%);
 }
 
 .moji {
@@ -109,10 +116,4 @@ small {
 }
 
 .btn {
-    text-decoration: none;
-    color: #668ad8;
-    border-radius: 13px;
-    border: double 4px #668ad8;
-    font-size: 18px;
-    padding: 12px;
 }
